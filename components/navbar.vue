@@ -4,18 +4,13 @@
       <div class="header-top">
         <div class="wrapper wide top-wrap">
           <Topheader/>
-          <a class="top-logo link-to-pages-home" href="/"
-            ><img
-              class="image logo-image"
-              alt="Cepte Şok"
-              src="/static/media/logo.543819f5.svg"
-          /></a>
+          
           <img src="https://play-lh.googleusercontent.com/wOXdxoGnndNS6GGjdNeosAC4m3XTwfhO7XZl6qN5nM34Mwgm1LG1wmrSm1fAMrmxCB0" alt="" height="80" width="80">
           <div class="top-leftnav">
             <div class="leftnav-menu dropdown-container">
               <button type="button" class="btn menu-btn big">
                 <div class="btn-content">
-                  <svg class="btn-icon icon-grocery pre" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M20 22H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1zm-1-2V4H5v16h14zM9 6v2a3 3 0 0 0 6 0V6h2v2A5 5 0 0 1 7 8V6h2z" fill="rgba(255,255,255,1)"/></svg>Kategoriler<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 15l-4.243-4.243 1.415-1.414L12 12.172l2.828-2.829 1.415 1.414z" fill="rgba(255,255,255,1)"/></svg>
+                  <svg class="btn-icon icon-grocery pre" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M20 22H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1zm-1-2V4H5v16h14zM9 6v2a3 3 0 0 0 6 0V6h2v2A5 5 0 0 1 7 8V6h2z" fill="rgba(255,255,255,1)"/></svg>Kategoriler<svg  viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 15l-4.243-4.243 1.415-1.414L12 12.172l2.828-2.829 1.415 1.414z" fill="rgba(255,255,255,1)"/></svg>
                 </div>
               </button>
               <div class="menu-dropdown dropdown">
@@ -147,7 +142,7 @@
               autocomplete=""
             >
               <div class="inputwrap type-text searchbar-input has-icon big">
-                <svg class="input-icon icon-search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"/></svg>
+                <svg class="input-icon icon-search" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"/></svg>
                 <div class="input-innerwrap">
                   <input
                     tabindex="0"
@@ -173,11 +168,34 @@
             </div>
             <div class="rightnav-item rightnav-account dropdown-container">
               <div class="rightnav-item rightnav-account">
-                <button class="rightnav-link">
-                  <svg class="icon-user" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M20 22H4v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v2zm-8-9a6 6 0 1 1 0-12 6 6 0 0 1 0 12z"/></svg><span>Giriş Yap <br />Üye Ol</span>
+                <button class="rightnav-link" >
+                  <svg class="icon-user" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M20 22H4v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v2zm-8-9a6 6 0 1 1 0-12 6 6 0 0 1 0 12z"/></svg> <a href="#popup1"> <span >Giriş Yap <br />Üye Ol</span></a>
+
                 </button>
+          
               </div>
             </div>
+           
+ 
+
+
+
+<div id="popup1" class="overlay">
+    <div class="popup">
+        <a class="close" href="#">&times;</a>
+      
+          <div class="modal-content"><div class="auth-intro"><div class="auth-head"><img class="image intro-headimage" alt="Görsel" src="https://www.sokmarket.com.tr/static/media/intro-head.c4d26773.jpg"></div><div class="auth-content"><button type="button" class="btn content-optbtn big block"><div class="btn-content">Giriş Yap</div></button><button type="button" class="btn content-optbtn big block text"><div class="btn-content">Yeni Üyelik Oluştur</div></button><button type="button" class="btn content-optbtn big block nude"><div class="btn-content">Giriş yapmadan devam et</div></button></div></div></div>
+        
+      </div>
+</div>
+<div id="popup2" class="overlay">
+  <div class="popup">
+        <a class="close" href="#">&times;</a>
+        <div class="modal-content"><div class="auth-login"><div class="auth-nav"><button class="nav-back"><i class="icon-angle-left-thin"></i></button><strong class="nav-title">Üye Girişi</strong></div><div class="auth-head plain"><div class="head-content"><i class="icon-phone-sms head-icon"></i><p>Lütfen cep telefonuzu giriniz. <br>Cep telefonunuza gelecek olan kod ile giriş <br>yapabilecesiniz</p></div></div><div class="auth-content"><form class="form form-container"  autocomplete=""><div class="form-group"><div class="inputwrap type-text"><label class="input-label" for="form_input_hkh1dbotr"><div class="label-text">Cep Telefonunuz</div></label><div class="input-innerwrap"><input label="Cep Telefonunuz" pattern="[0-9]*" inputmode="numeric" type="text" id="form_input_hkh1dbotr" name="phone" placeholder="(5 - -) - - -  - -  - -" class="inputwrap-input" value=""></div></div></div><div class="form-group apart"><button type="submit" class="btn  block rounded"><div class="btn-content">Devam Et</div></button></div></form></div></div></div>
+         
+        
+      </div>
+</div>
             <div class="rightnav-item rightnav-basket dropdown-container">
               <a
                 tag="button"
@@ -194,3 +212,77 @@
     </header>
   </div>
 </template>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #06D85F;
+  margin: 80px 0;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 25%;
+  height: 80%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+</style>
