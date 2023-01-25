@@ -14,64 +14,125 @@
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-category"
-                        href="/patates-sogan-sarimsak-c-1599"
-                        >Meyve &amp; Sebze</a
+                        
+                        >
+                        <NuxtLink to="meyvesebze">
+                        Meyve &amp; Sebze
+                        </NuxtLink>
+                        </a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-category"
-                        href="/kirmizi-et-c-1252"
-                        >Et &amp; Tavuk &amp; Şarküteri</a
+                        
+                        >
+                        
+                        <NuxtLink to="ettavuk">
+
+                        Et &amp; Tavuk &amp; Şarküteri
+                        
+                        </NuxtLink>
+                        </a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-category"
-                        href="/sut-c-1348"
-                        >Süt &amp; Süt Ürünleri</a
+                        
+                        >
+                        
+                        <NuxtLink to="suturunleri">
+
+                        Süt &amp; Süt Ürünleri
+                        
+                        </NuxtLink>
+                        </a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-category"
-                        href="/yumurta-c-1357"
-                        >Kahvaltılık</a
+                        
+                        >
+                        
+                        <NuxtLink to="kahvaltilik">
+
+                        Kahvaltılık
+                        
+                        </NuxtLink>
+                        </a>
+                    </div>
+                    <div class="col-row">
+                      <a
+                        class="row-link link-to-pages-category"
+                        
+                        >
+                        
+                        <NuxtLink to="ekmekpastane">
+
+                        Ekmek &amp; Pastane
+                        
+                        </NuxtLink>
+                        </a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-category"
-                        href="/ekmek-c-1447"
-                        >Ekmek &amp; Pastane</a
+                        
+                        >
+                        
+                        <NuxtLink to="dondurulmus">
+
+                        Dondurulmuş Ürünler
+                        
+                        </NuxtLink>
+                        </a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-category"
-                        href="/dondurulmus-patates-c-1919"
-                        >Dondurulmuş Ürünler</a
+                        
+                        >
+
+                        <NuxtLink to="yemeklik">
+                        
+                        Yemeklik Malzemeler
+                        
+                      </NuxtLink>
+
+
+                        </a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-category"
-                        href="/sivi-yaglar-c-1284"
-                        >Yemeklik Malzemeler</a
+                        
+                        >
+                        
+                        <NuxtLink to="atistirmalik">
+
+                        Atıştırmalık
+                        </NuxtLink>
+
+                        </a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-category"
-                        href="/cikolata-c-1466"
-                        >Atıştırmalık</a
-                      >
-                    </div>
-                    <div class="col-row">
-                      <a
-                        class="row-link link-to-pages-category"
-                        href="/su-c-1440"
-                        >İçecek</a
+                        
+                        >
+
+                        <NuxtLink to="icecek">
+                        
+                        İçecek
+                        
+                        </NuxtLink>
+                        </a
                       >
                     </div>
                   </div>
@@ -79,57 +140,110 @@
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-category"
-                        href="/sampuan-banyo-dus-c-1454"
-                        >Kişisel Bakım &amp; Kozmetik</a
+                        
+                        >
+
+                        <NuxtLink to="kisiselbakim">
+                        
+                        Kişisel Bakım &amp; Kozmetik
+                        
+                        </NuxtLink>
+                        </a>
+                    </div>
+                    <div class="col-row">
+                      <a
+                        class="row-link link-to-pages-category"
+                        
+                        >
+                        
+                        <NuxtLink to="temizlik">
+
+                        Temizlik
+                        
+                        </NuxtLink>
+                        </a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-category"
-                        href="/bulasik-c-1442"
-                        >Temizlik</a
+                        
+                        >
+                        <NuxtLink to="annebebek">
+
+                        Anne - Bebek &amp; Çocuk
+                      
+                        </NuxtLink>
+                        
+                      </a>
+                    </div>
+                    <div class="col-row">
+                      <a
+                        class="row-link link-to-pages-category"
+                        
+                        >
+                        <NuxtLink to="kagit">
+                        
+                        Kağıt Ürünleri
+                        
+                        </NuxtLink>
+                        </a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-category"
-                        href="/bebek-bezi-c-1745"
-                        >Anne - Bebek &amp; Çocuk</a
+                        
+                        >
+                        
+                        <NuxtLink to="evcil">
+
+                        Evcil Dostlar
+                        
+                        </NuxtLink>
+                        </a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-category"
-                        href="/tuvalet-kagidi-c-1959"
-                        >Kağıt Ürünleri</a
+                        
+                        >
+                        
+                        <NuxtLink to="elektronik">
+
+                        Elektronik
+                        
+                        </NuxtLink>
+                        </a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-category"
-                        href="/kedi-kumu-poset-c-1948"
-                        >Evcil Dostlar</a
+                        
+                        >
+                        
+                        <NuxtLink to="giyim">
+
+                        Giyim &amp; Ayakkabı &amp; Aksesuar
+                        
+                        </NuxtLink>
+                        </a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-category"
-                        href="/ampul-aydinlatma-c-1575"
-                        >Elektronik</a
-                      >
-                    </div>
-                    <div class="col-row">
-                      <a
-                        class="row-link link-to-pages-category"
-                        href="/kadin-ic-giyim-c-1943"
-                        >Giyim &amp; Ayakkabı &amp; Aksesuar</a
-                      >
-                    </div>
-                    <div class="col-row">
-                      <a
-                        class="row-link link-to-pages-category"
-                        href="/ev-tekstili-c-1723"
-                        >Ev &amp; Yaşam</a
+                        
+                        >
+                        
+                        <NuxtLink to="evyasam">
+
+                        Ev &amp; Yaşam
+                        
+                        </NuxtLink>
+                        </a
                       >
                     </div>
                   </div>
@@ -144,42 +258,42 @@
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-account.helpDetail"
-                        href="/hesabim/yardim/25/yasal-uyarilar"
+                        
                         >Yasal Uyarılar</a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-account.helpDetail"
-                        href="/hesabim/yardim/27/guvenlik-politikasi"
+                        
                         >Güvenlik Politikası</a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-account.helpDetail"
-                        href="/hesabim/yardim/28/kullanim-kosullari"
+                        
                         >Kullanım Koşulları</a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-account.helpDetail"
-                        href="/hesabim/yardim/29/kvkk"
+                        
                         >Kişisel Verilerin Korunması</a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-account.helpDetail"
-                        href="/hesabim/yardim/26/hakkimizda"
+                        
                         >Hakkımızda</a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link"
-                        href="https://kurumsal.sokmarket.com.tr"
+                        
                         target="_blank"
                         rel="noopener noreferrer"
                         >Kurumsal</a
@@ -188,7 +302,7 @@
                     <div class="col-row">
                       <a
                         class="row-link"
-                        href="https://sokmarketyatirimciiliskileri.com/tr"
+                        
                         target="_blank"
                         rel="noopener noreferrer"
                         >Yatırımcı İlişkileri</a
@@ -204,42 +318,42 @@
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-account.orders"
-                        href="/hesabim/siparislerim"
+                        
                         >Siparişlerim</a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-account.profile"
-                        href="/hesabim/profilim"
+                        
                         >Kullanıcı Bilgilerim</a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-account.addresses"
-                        href="/hesabim/adreslerim"
+                        
                         >Adreslerim</a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-account.favorites"
-                        href="/hesabim/favori-urunlerim"
+                        
                         >Favori Ürünlerim</a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-account.payment"
-                        href="/hesabim/odeme-yontemlerim"
+                        
                         >Ödeme Yöntemlerim</a
                       >
                     </div>
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-account.billing"
-                        href="/hesabim/fatura-bilgilerim"
+                        
                         >Fatura Bilgilerim</a
                       >
                     </div>
@@ -248,7 +362,7 @@
                     <div class="col-row">
                       <a
                         class="row-link link-to-pages-account.message"
-                        href="/hesabim/mesaj-gonder"
+                        
                         >Mesaj Gönder</a
                       >
                     </div>
@@ -261,7 +375,7 @@
                 <img
                   class="image app-brandlogo"
                   alt="Görsel"
-                  src="/static/media/logo.543819f5.svg"
+                  src="https://www.sokmarket.com.tr/static/media/logo.543819f5.svg"
                 />
                 <h2 class="app-title">
                   Mobil Uygulamamız ile <br />Şok Her an Yanınızda
@@ -274,7 +388,7 @@
                       title="Cepte Şok uygulamasını App Store'dan indirin"
                       alt="App Store'dan indirin"
                       target="_blank"
-                      href="https://apps.apple.com/tr/app/cepte-%C5%9Fok/id1234494259?l=tr"
+                      
                       ><img
                         class="image"
                         alt="Görsel"
@@ -288,7 +402,7 @@
                       title="Cepte Şok uygulamasını Google Play'den indirin"
                       alt="Şimdi indir: Google Play"
                       target="_blank"
-                      href="https://play.google.com/store/apps/details?id=com.positive.ceptesok&amp;hl=tr"
+                      
                       ><img
                         class="image"
                         alt="Görsel"
@@ -308,11 +422,11 @@
             <address class="bottom-contact">
               <p class="contact-section">
                 <strong>Bizi Arayın:</strong>
-                <a class="" href="tel:+908508080000">0 850 808 00 00</a>
+                <a class=""></a> 
               </p>
               <p class="contact-section">
                 <strong>Bize Yazın:</strong>
-                <a class="" href="mailto:musterihizmetleri@sokmarket.com.tr"
+                <a class="" 
                   >musterihizmetleri@sokmarket.com.tr</a
                 >
               </p>
@@ -322,14 +436,14 @@
                 <strong>Kampanyalar</strong
                 ><a
                   class="catalog-link link-to-pages-campaignList"
-                  href="/kampanya-listesi"
+                  
                   >Kampanyaları İncele</a
                 >
               </div>
               <img
                 class="image catalog-image"
                 alt="Görsel"
-                src="/static/media/catalog.464514e2.png"
+                src="https://www.sokmarket.com.tr/static/media/catalog.464514e2.png"
               />
             </div>
           </div>
@@ -344,11 +458,11 @@
             <img
               class="image payment-logo"
               alt="Mastercard"
-              src="/static/media/mastercard.8c1d0823.svg"
+              src="https://www.sokmarket.com.tr/static/media/mastercard.8c1d0823.svg"
             /><img
               class="image payment-logo"
               alt="Visa"
-              src="/static/media/visa.f78268d0.svg"
+              src="https://www.sokmarket.com.tr/static/media/visa.f78268d0.svg"
             />
           </div>
         </div>

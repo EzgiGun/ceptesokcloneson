@@ -5,7 +5,9 @@
         <div class="wrapper wide top-wrap">
           <Topheader/>
           
+          <NuxtLink to="/">
           <img src="https://play-lh.googleusercontent.com/wOXdxoGnndNS6GGjdNeosAC4m3XTwfhO7XZl6qN5nM34Mwgm1LG1wmrSm1fAMrmxCB0" alt="" height="80" width="80">
+          </NuxtLink>
           <div class="top-leftnav">
             <div class="leftnav-menu dropdown-container">
               <button type="button" class="btn menu-btn big">
@@ -18,120 +20,237 @@
                   <li class="dropdown-item">
                     <a
                       class="item-link link-to-pages-category"
-                      href="/patates-sogan-sarimsak-c-1599"
-                      ><span>Meyve &amp; Sebze</span></a
+                      >
+                      
+                      <NuxtLink to="../../kategoriler/meyvesebze/sarimsak">
+                      <span>Meyve &amp; Sebze</span>
+                      </NuxtLink>
+
+                      </a
                     >
                   </li>
                   <li class="dropdown-item">
                     <a
                       class="item-link link-to-pages-category"
-                      href="/kirmizi-et-c-1252"
-                      ><span>Et &amp; Tavuk &amp; Şarküteri</span></a
+                      
+                      >
+                      
+                      <NuxtLink to="../../kategoriler/ettavuk/kirmiziet">
+
+                      <span>Et &amp; Tavuk &amp; Şarküteri</span>
+                      
+                      </NuxtLink>
+                      </a
                     >
                   </li>
                   <li class="dropdown-item">
                     <a
                       class="item-link link-to-pages-category"
-                      href="/sut-c-1348"
-                      ><span>Süt &amp; Süt Ürünleri</span></a
+                      
+                      >
+                      
+                      <NuxtLink to="../../kategoriler/suturunleri">
+
+                      <span>Süt &amp; Süt Ürünleri</span>
+                      
+                      </NuxtLink>
+
+                      </a
                     >
                   </li>
                   <li class="dropdown-item">
                     <a
                       class="item-link link-to-pages-category"
-                      href="/yumurta-c-1357"
-                      ><span>Kahvaltılık</span></a
+                      
+                      >
+                      <NuxtLink to="../../kategoriler/kahvaltilik">
+
+                      <span>Kahvaltılık</span>
+                      
+                      </NuxtLink>
+                      </a
                     >
                   </li>
                   <li class="dropdown-item">
                     <a
                       class="item-link link-to-pages-category"
-                      href="/ekmek-c-1447"
-                      ><span>Ekmek &amp; Pastane</span></a
+                      
+                      >
+                      
+                      <NuxtLink to="../../kategoriler/ekmekpastane">
+
+                      <span>Ekmek &amp; Pastane</span>
+                      
+                      </NuxtLink>
+                      </a
                     >
                   </li>
                   <li class="dropdown-item">
                     <a
                       class="item-link link-to-pages-category"
-                      href="/dondurulmus-patates-c-1919"
-                      ><span>Dondurulmuş Ürünler</span></a
+                     
+                      >
+                      
+                      <NuxtLink to="../../kategoriler/dondurulmus">
+
+                      <span>Dondurulmuş Ürünler</span>
+                      
+                      </NuxtLink>
+
+                      </a
+                    >
+                  </li>
+                  <li class="dropdown-item">
+                    <a
+                      class="item-link link-to-pages-category">
+                      
+                      <NuxtLink to="../../kategoriler/yemeklik">
+
+                      <span>Yemeklik Malzemeler</span>
+                      
+                      </NuxtLink>
+                      </a
                     >
                   </li>
                   <li class="dropdown-item">
                     <a
                       class="item-link link-to-pages-category"
-                      href="/sivi-yaglar-c-1284"
-                      ><span>Yemeklik Malzemeler</span></a
+                      
+                      >
+                      
+                      <NuxtLink to="../../kategoriler/atistirmalik">
+
+                      <span>Atıştırmalık</span>
+                      </NuxtLink>
+                      </a
                     >
                   </li>
                   <li class="dropdown-item">
                     <a
                       class="item-link link-to-pages-category"
-                      href="/cikolata-c-1466"
-                      ><span>Atıştırmalık</span></a
+                      
+                      >
+                      <NuxtLink to="../../kategoriler/icecek">
+
+                      <span>İçecek</span>
+                      
+                      </NuxtLink>
+
+                      </a
+                    >
+
+                  </li>
+                  <li class="dropdown-item">
+                    <a
+                      class="item-link link-to-pages-category"
+                      
+                      >
+                      <NuxtLink to="../../kategoriler/kisiselbakim">
+
+                      <span>Kişisel Bakım &amp; Kozmetik</span>
+                      
+                      </NuxtLink>
+                      </a
                     >
                   </li>
                   <li class="dropdown-item">
                     <a
                       class="item-link link-to-pages-category"
-                      href="/su-c-1440"
-                      ><span>İçecek</span></a
+                      
+                      >
+                      
+                      <NuxtLink to="../../kategoriler/temizlik">
+
+                      <span>Temizlik</span>
+                      
+                      </NuxtLink>
+                      </a
                     >
                   </li>
                   <li class="dropdown-item">
                     <a
                       class="item-link link-to-pages-category"
-                      href="/sampuan-banyo-dus-c-1454"
-                      ><span>Kişisel Bakım &amp; Kozmetik</span></a
+                      
+                      >
+                      
+                      <NuxtLink to="../../kategoriler/annebebek">
+
+                      <span>Anne - Bebek &amp; Çocuk</span>
+                      
+                      </NuxtLink>
+                      </a
                     >
                   </li>
                   <li class="dropdown-item">
                     <a
                       class="item-link link-to-pages-category"
-                      href="/bulasik-c-1442"
-                      ><span>Temizlik</span></a
+                
+                      >
+                      <NuxtLink to="../../kategoriler/kagit">
+
+                      <span>Kağıt Ürünleri</span>
+                      
+                      
+                      </NuxtLink>
+
+                      </a
                     >
                   </li>
                   <li class="dropdown-item">
                     <a
                       class="item-link link-to-pages-category"
-                      href="/bebek-bezi-c-1745"
-                      ><span>Anne - Bebek &amp; Çocuk</span></a
+                      >
+                      
+                      <NuxtLink to="../../kategoriler/evcil">
+
+                      <span>Evcil Dostlar</span>
+                      
+                      </NuxtLink>
+
+                      </a
                     >
                   </li>
                   <li class="dropdown-item">
                     <a
                       class="item-link link-to-pages-category"
-                      href="/tuvalet-kagidi-c-1959"
-                      ><span>Kağıt Ürünleri</span></a
+                      
+                      >
+                      
+                      <NuxtLink to="../../kategoriler/elektronik">
+
+                      <span>Elektronik</span>
+                      
+                      </NuxtLink>
+                      </a
                     >
                   </li>
                   <li class="dropdown-item">
                     <a
                       class="item-link link-to-pages-category"
-                      href="/kedi-kumu-poset-c-1948"
-                      ><span>Evcil Dostlar</span></a
+                      
+                      >
+                      
+                      <NuxtLink to="../../kategoriler/giyim">
+
+                      <span>Giyim &amp; Ayakkabı &amp; Aksesuar</span>
+                      
+                      </NuxtLink>
+
+                      </a
                     >
                   </li>
                   <li class="dropdown-item">
                     <a
                       class="item-link link-to-pages-category"
-                      href="/ampul-aydinlatma-c-1575"
-                      ><span>Elektronik</span></a
-                    >
-                  </li>
-                  <li class="dropdown-item">
-                    <a
-                      class="item-link link-to-pages-category"
-                      href="/kadin-ic-giyim-c-1943"
-                      ><span>Giyim &amp; Ayakkabı &amp; Aksesuar</span></a
-                    >
-                  </li>
-                  <li class="dropdown-item">
-                    <a
-                      class="item-link link-to-pages-category"
-                      href="/ev-tekstili-c-1723"
-                      ><span>Ev &amp; Yaşam</span></a
+                    
+                      >
+                      <NuxtLink to="../../kategoriler/evyasam">
+
+                      <span>Ev &amp; Yaşam</span>
+                      
+                      </NuxtLink>
+
+                      </a
                     >
                   </li>
                 </ul>
@@ -170,7 +289,6 @@
               <div class="rightnav-item rightnav-account">
                 <button class="rightnav-link" >
                   <svg class="icon-user" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M20 22H4v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v2zm-8-9a6 6 0 1 1 0-12 6 6 0 0 1 0 12z"/></svg> <a href="#popup1"> <span >Giriş Yap <br />Üye Ol</span></a>
-
                 </button>
           
               </div>

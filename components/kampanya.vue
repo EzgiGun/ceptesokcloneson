@@ -6,91 +6,99 @@
           <h2 class="baslik">Kampanyalar</h2>
           <a href="/kampanya-listesi">Tüm Kampanyalar</a>
         </div>
-        <VueSlickCarousel :arrows="true" :dots="false" :slidesToShow="4">
-        <div>
-          <div class="swiper-wrapper">           
-          <div class=" kampanyaKismi">
+  <swiper
+    :slidesPerView="3"
+    :spaceBetween="30"
+    :modules="modules"
+    class="mySwiper"
+  >
+    <swiper-slide>
+
+      <div class="kampanyaKismi">
               <button class="kampanyaResimleri">
                   <img src="../assets/kategori1.jpg">
               </button>
             </div>
-            <div class="kampanyaKismi ">
+
+    </swiper-slide>
+    <swiper-slide>
+
+      <div class="kampanyaKismi">
               <button class="kampanyaResimleri">
                   <img src="../assets/kategori2.jpg">
               </button>
             </div>
-            <div class="kampanyaKismi ">
+
+    </swiper-slide>
+    <swiper-slide>
+      
+      <div class="kampanyaKismi">
               <button class="kampanyaResimleri">
-                <div class="imagewrap bg">
                   <img src="../assets/kategori3.jpg">
-                </div>
               </button>
             </div>
-            <div class="kampanyaKismi ">
+
+    </swiper-slide>
+    <swiper-slide>
+
+      <div class="kampanyaKismi">
               <button class="kampanyaResimleri">
                   <img src="../assets/kategori4.jpg">
               </button>
             </div>
-            <div class="kampanyaKismi">
+
+    </swiper-slide>
+    <swiper-slide>
+      
+      <div class="kampanyaKismi">
               <button class="kampanyaResimleri">
                   <img src="../assets/kategori5.jpg">
               </button>
             </div>
-            <div class="kampanyaKismi">
-              <button class="kampanyaResimleri">
-                  <img src="../assets/kategori5.jpg">
-              </button>
-            </div>
-          </div>
-        </div>
-        </VueSlickCarousel>
-      </div>
+
+    </swiper-slide>
+  </swiper>
+  </div>
     </section>
   </div>
 </template>
-
 <script>
-  import VueSlickCarousel from 'vue-slick-carousel'
-  import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-  import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
- 
-  export default {
-    name: 'MyComponent',
-    components: { VueSlickCarousel },
-  }
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from "swiper/vue";
+
+// Import Swiper styles
+import "swiper/css";
+
+import "swiper/css/pagination";
+
+
+// import required modules
+import { Pagination } from "swiper";
+
+export default {
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  setup() {
+    return {
+      modules: [Pagination],
+    };
+  },
+};
 </script>
 
 <style>
-
-
-
-.baslik{
-    font-size:1.8rem;
-    letter-spacing:-.025em;
-}
-.kampanyaKismi {
-    flex-shrink:0;
-    width:100%;
-    height:100%;
-    position:relative;
-    z-index:1;
-    display:flex;
-    transition-property:transform;
-    box-sizing:content-box
-   }
-.kampanyaResimleri{
-    position:relative;
-    display:flex;
-    width:100%;
-    height:100%;
-    border-radius:.4rem;
-    flex-flow:column wrap;
-    justify-content:space-between;
-    padding:1rem 0 1.5rem 3rem;
-    color:#fff;
-    width:33.5rem;
-    height:10.2rem;
+.home-slider {
+    background-color:#f7f3eb;
+    padding:2.6rem 0 4.3rem;
     overflow:hidden
-}
+   }
 
+.slider-heading {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:3.3rem
+   }   
 </style>

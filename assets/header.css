@@ -9505,8 +9505,7 @@
     height:6rem;
     line-height:6rem;
     border-radius:.4rem;
-    font-size:3rem
-   }
+    font-size:3rem   }
    .section.callcenter-login .login-validate .pin-char:disabled {
     opacity:.3
    }

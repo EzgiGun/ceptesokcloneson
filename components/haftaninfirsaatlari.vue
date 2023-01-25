@@ -21,12 +21,12 @@
                         <span class="count-num">0</span> Adet
                       </div>
                       <button type="button" class="controls-btn controls-plus">
-                        <i class="icon-plus"></i>
+                        <svg class="icon-plus" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z" fill="rgba(47,204,113,1)"/></svg>
                       </button>
                     </div>
                   </div>
                   <a
-                    class="productbox-wrap "
+                    class="productbox-wrap link-to-pages-productDetail"
                     href="/apu-amd-athlon-5600g-16-gb-ddr4-256-gb-ssd-freedos-gaming-pc-p-37823/"
                     ><div class="productbox-imagewrap">
                       <div
@@ -55,7 +55,6 @@
                   >
                 </div>
               </li>
-
               <li class="list-item">
                 <div class="productbox type-listing">
                   <div class="productbox-controls">
@@ -67,12 +66,12 @@
                         <span class="count-num">0</span> Adet
                       </div>
                       <button type="button" class="controls-btn controls-plus">
-                        <i class="icon-plus"></i>
+                        <svg class="icon-plus" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z" fill="rgba(47,204,113,1)"/></svg>
                       </button>
                     </div>
                   </div>
                   <a
-                    class="productbox-wrap"
+                    class="productbox-wrap link-to-pages-productDetail"
                     href="/3050-amd-ryzen-5-5500-8gb-rtx3050-16gb-ram-ddr4-512gb-ssd-freedos-gaming-pc-p-37820/"
                     ><div class="productbox-imagewrap">
                       <div
@@ -103,7 +102,6 @@
                   >
                 </div>
               </li>
-
               <li class="list-item">
                 <div class="productbox type-listing">
                   <div class="productbox-controls">
@@ -115,12 +113,12 @@
                         <span class="count-num">0</span> Adet
                       </div>
                       <button type="button" class="controls-btn controls-plus">
-                        <i class="icon-plus"></i>
+                        <svg class="icon-plus" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z" fill="rgba(47,204,113,1)"/></svg>
                       </button>
                     </div>
                   </div>
                   <a
-                    class="productbox-wrap "
+                    class="productbox-wrap link-to-pages-productDetail"
                     href="/1660s-amd-ryzen-5-3600-6gb-gtx1660-super-16gb-ddr4-512gb-ssd-freedos-gaming-pc-p-37821/"
                     ><div class="productbox-imagewrap">
                       <div
@@ -151,7 +149,6 @@
                   >
                 </div>
               </li>
-
               <li class="list-item">
                 <div class="productbox type-listing">
                   <div class="productbox-controls">
@@ -163,12 +160,12 @@
                         <span class="count-num">0</span> Adet
                       </div>
                       <button type="button" class="controls-btn controls-plus">
-                        <i class="icon-plus"></i>
+                        <svg class="icon-plus" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z" fill="rgba(47,204,113,1)"/></svg>
                       </button>
                     </div>
                   </div>
                   <a
-                    class="productbox-wrap "
+                    class="productbox-wrap link-to-pages-productDetail"
                     href="/1650-amd-ryzen-3-4100-4gb-gtx1650-8gb-ddr4-256gb-ssd-freedos-gaming-pc-p-37822/"
                     ><div class="productbox-imagewrap">
                       <div
@@ -207,14 +204,3 @@
     </section>
   </div>
 </template>
-
-<style>
-.productbox.type-listing .productbox-imagewrap {
-  border:.1rem solid #e7e7e7;
-  border-radius:.4rem;
-  padding:1rem;
-  width:100%;
-  height:auto;
-  transition:border-color .2s ease
- }
-</style>
