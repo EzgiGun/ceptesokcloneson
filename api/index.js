@@ -29,37 +29,19 @@ app.get('/uruncek/:kategoriid', async (req, res) => {
 });
 
 
-app.get('/test',  async (req, res,next) => {
-
-    try {
-
-        
-        const urun = await db.collection('urunler');
-        const data = urun.get();
-        const urunArray = [];
-        if (data.empty){
-            res.status(404).send("Kayıt bulunamadı");
-        }else{
-            data.forEach(doc => {
-                const urun = new Urunler(
-                    doc.data().aciklama,
-                    doc.data().fiyat,
-                    doc.data().isim,
-                    doc.data().kategori,
-                    doc.data().link,
-
-                );
-                urunArray.push(urun)
-            });
-            res.send(urunArray);
+app.get('/urundetaycek/:urunisim', async (req, res) => {
+    const db = admin.firestore();
+    urunArray = [];
+    const snapshot = await db.collection('urunler').get();
+    snapshot.forEach((doc) => {
+        if(doc.data().isim == req.params.urunisim){
+            console.log(doc.data());
+            urunArray.push(doc.data());
         }
-
-
-    } catch(error) {
-        res.status(400).send(error.message);
-    }
-
+    });
+    res.send(urunArray)
 });
+
 
 
 

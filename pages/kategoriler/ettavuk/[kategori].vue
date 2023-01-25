@@ -7,7 +7,7 @@
     <section class="section listing category has-subnav">
         <div class="listing-head">
             <div class="wrapper wide head-titlewrap">
-                <h1 class="head-title" style="color: black">Kırmızı Et</h1>
+                <h1 class="head-title" style="color: black">Et & Tavuk & Şarküteri</h1>
             </div>
             <div data-simplebar="init" options="[object Object]" class="head-nav">
                 <div class="simplebar-wrapper" style="margin: -12.6417px 0px;">
